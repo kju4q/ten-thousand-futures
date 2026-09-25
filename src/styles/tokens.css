@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk Variable';
+  src: url('@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #05070d;
+  --surface: #0a0e18;
+  --surface-raised: #0e1421;
+  --line: rgba(164, 188, 219, 0.14);
+  --text: #eef6ff;
+  --muted: #8292aa;
+  --cyan: #5cdade;
+  --coral: #ff8970;
+  --violet: #aa76ff;
+  --display: 'Space Grotesk Variable', 'Arial Narrow', sans-serif;
+  --editorial: 'Iowan Old Style', 'Baskerville', 'Palatino Linotype', Georgia, serif;
+  --mono: ui-monospace, 'SFMono-Regular', 'Cascadia Mono', 'Roboto Mono', monospace;
+  --interface: 'Inter Variable', Arial, sans-serif;
+}
