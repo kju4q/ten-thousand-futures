@@ -1,8 +1,22 @@
 # 10,000 FUTURES
 
+Try it: [https://ten-thousand-futures.vercel.app](https://ten-thousand-futures.vercel.app)
+
+Built with Codex, deployed with Vercel Drop. Shipping guide: [SHIP GIST URL]
+
+![The live 10,000 Futures link in Telegram](docs/telegram-live-link-scrshot.png)
+
+*The live link, sent to a friend a minute after the drop.*
+
+![10,000 Futures](docs/ten-thousand-futures-scrshot.png)
+
 10,000 Futures is an interactive visual product inspired by the original [Decision Simulator project](https://github.com/kju4q/ai-weekend-builds/tree/main/vol-3/05-decision-simulator) in AI Weekend Builds.
 
 This is an independent standalone implementation. It compares exactly two options across 10,000 paired simulated futures, then maps every future into a cinematic full-screen Canvas universe. Every point of light is one named, touchable simulated run. It is educational software for exploring assumptions, not a prediction system.
+
+## make it yours
+
+Change the decision in src/scenarios/defaultScenario.ts, your two options, your numbers, your odds. Run npm run build, then drag the dist folder into Vercel Drop. That's the whole deploy. Full steps in the shipping guide above.
 
 ## Local setup
 
