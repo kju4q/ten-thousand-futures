@@ -2,7 +2,7 @@
 
 Try it: [https://ten-thousand-futures.vercel.app](https://ten-thousand-futures.vercel.app)
 
-Built with Codex, deployed with Vercel Drop. Shipping guide: [SHIP GIST URL]
+Built with Codex, deployed with Vercel Drop. Shipping guide: [https://gist.github.com/kju4q/744aeafb7dae62c7b3c05934363922dd](https://gist.github.com/kju4q/744aeafb7dae62c7b3c05934363922dd)
 
 ![The live 10,000 Futures link in Telegram](docs/telegram-live-link-scrshot.png)
 
